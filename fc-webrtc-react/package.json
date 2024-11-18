@@ -1,0 +1,23 @@
+{
+  "name": "@lumenccs/webrtc-react",
+  "version": "0.0.0",
+  "description": "React Components and hooks for WebRTC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://gitlab.vailsys.com/lumenccs/webrtc-react",
+  "author": "Geoff Miller <gmiller@vailsys.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.3"
+   },
+  "peerDependencies": {
+    "@lumenccs/webrtc-sdk": "2.0.0",
+    "react": "^18.3.1",
+    "react/jsx-runtime": "*"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

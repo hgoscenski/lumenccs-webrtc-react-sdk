@@ -1,0 +1,9 @@
+## How to run
+
+1. Fill out .env using .env.example
+
+2. `yarn install`
+
+3. `yarn link @lumenccs/webrtc-react`
+
+4. `yarn start`
